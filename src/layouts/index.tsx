@@ -8,7 +8,7 @@ const Layouts = ({ children }: elements.Children) => {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="A bun hono app" />
-    <title>Document</title>
+    <title>Hono App</title>
   </head>
   <body>
     ${children}
