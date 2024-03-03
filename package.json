@@ -13,6 +13,9 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@capacitor/android": "^5.7.1",
+    "@capacitor/cli": "^5.7.1",
+    "@capacitor/core": "^5.7.1",
     "hono": "^4.0.9",
     "typed-html": "^3.0.1"
   }
