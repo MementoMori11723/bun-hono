@@ -5,6 +5,10 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
+  "scripts": {
+    "start": "bun run src/index.tsx",
+    "Build": "bun install"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
