@@ -17,8 +17,6 @@
     "@capacitor/cli": "^5.7.1",
     "@capacitor/core": "^5.7.1",
     "hono": "^4.0.9",
-    "typed-html": "^3.0.1",
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4"
+    "typed-html": "^3.0.1"
   }
 }
