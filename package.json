@@ -6,8 +6,8 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "start": "bun run dist/index.js",
-    "Build": "bun install && bun build ./src/index.tsx --minify --outdir ./dist"
+    "start": "bun run src/index.tsx",
+    "Build": "bun install"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
