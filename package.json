@@ -6,8 +6,8 @@
     "@types/bun": "latest"
   },
   "scripts": {
-    "start": "bun run src/index.tsx",
-    "Build": "bun install"
+    "start": "bun run dist/index.js",
+    "Build": "bun install && bun build ./src/index.tsx --minify --outdir ./dist"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -17,6 +17,8 @@
     "@capacitor/cli": "^5.7.1",
     "@capacitor/core": "^5.7.1",
     "hono": "^4.0.9",
-    "typed-html": "^3.0.1"
+    "typed-html": "^3.0.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
   }
 }
